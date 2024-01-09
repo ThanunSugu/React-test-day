@@ -6,6 +6,7 @@ import Owner from "./Owner";
 import Home from "./Home";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
