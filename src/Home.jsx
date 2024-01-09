@@ -4,26 +4,26 @@ import Admin from "./Admin";
 import User from "./User";
 import React from "react";
 
-const mockEmployees = [
-  {
-    id: 0,
-    name: "mock",
-    lastname: "mocklastname",
-    position: "Manager",
-  },
-  {
-    id: 1,
-    name: "employee 1",
-    lastname: "em",
-    position: "Engineer",
-  },
-  {
-    id: 2,
-    name: "employee 2",
-    lastname: "lord",
-    position: "Designer",
-  },
-];
+// const mockEmployees = [
+//   {
+//     id: 0,
+//     name: "mock",
+//     lastname: "mocklastname",
+//     position: "Manager",
+//   },
+//   {
+//     id: 1,
+//     name: "employee 1",
+//     lastname: "em",
+//     position: "Engineer",
+//   },
+//   {
+//     id: 2,
+//     name: "employee 2",
+//     lastname: "lord",
+//     position: "Designer",
+//   },
+// ];
 
 const Home = () => {
   // const [setEmployees, employees] = useState(false);
@@ -38,7 +38,7 @@ const Home = () => {
       <div className="container-fluid ">
         <div className="row ">
           <div className="col-12 mx-auto pt-5 pb-5 text-center">
-            <h1 className="display-1">Generative Thailand</h1>
+            <h1 className="display-1">Generation Thailand</h1>
             <h1 className="display-1">
               {sector === "user"
                 ? "Home - User Sector"
@@ -83,7 +83,7 @@ function DisplayInfo(props) {
   } else if (props.choice === "user") {
     return <User />;
   } else {
-    return <p>"Please select an option."</p>;
+    return;
   }
 
   // return <div>{display}</div>;
