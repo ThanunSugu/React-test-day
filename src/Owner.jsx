@@ -10,7 +10,7 @@ const Owner = () => {
           </div>
           <div className="col-12 mx-auto  text-center">
             <img
-              src="src/asset/1.jpg"
+              src="./src/asset/1.jpg"
               alt="MyPicture"
               style={{ width: "400px" }}
             />
