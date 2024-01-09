@@ -1,4 +1,5 @@
 import Navbar from "./Nav";
+// import Admin from "./Admin";
 // import PropTypes from "prop-types";
 
 const Layout = ({ children }) => {
@@ -6,6 +7,7 @@ const Layout = ({ children }) => {
     <div>
       <Navbar />
       {children}
+      {/* <Admin /> */}
     </div>
   );
 };
